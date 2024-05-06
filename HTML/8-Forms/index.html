@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Example</title>
+</head>
+
+<body>
+    <h1>Contact GenSpark</h1>
+    <table>
+        <form action="submit.php" method="post">
+            <tr>
+                <td><label for="name">Name (Required)</label></td>
+                <td><input type="text" id="name" name="name" required></td>
+            </tr>
+            <tr>
+                <td><label for="company">Company</label></td>
+                <td><input type="text" id="company" name="company"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email (Required)</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone</label></td>
+                <td><input type="tel" id="phone" name="phone"></td>
+            </tr>
+            <tr>
+                <td><label for="help">How can we help? (Required)</label></td>
+                <td><textarea id="help" name="help" rows="4" cols="21" required></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Submit"></td>
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>
