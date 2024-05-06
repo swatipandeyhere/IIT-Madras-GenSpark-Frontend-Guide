@@ -1,0 +1,29 @@
+/* Named Color */
+#named-color {
+    color: red;
+}
+
+/* Hexadecimal Color */
+#hex-color {
+    color: #008080;
+}
+
+/* RGB Color */
+#rgb-color {
+    color: rgb(255, 165, 0);
+}
+
+/* RGBA Color */
+#rgba-color {
+    color: rgba(0, 0, 255, 0.5);
+}
+
+/* HSL Color */
+#hsl-color {
+    color: hsl(120, 100%, 50%);
+}
+
+/* HSLA Color */
+#hsla-color {
+    color: hsla(240, 100%, 50%, 0.3);
+}
