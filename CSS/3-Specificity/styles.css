@@ -1,0 +1,14 @@
+/* ID Selector */
+#content {
+    color: blue;
+}
+
+/* Class Selector */
+.container {
+    color: red;
+}
+
+/* Element Selector */
+p {
+    color: green;
+}
