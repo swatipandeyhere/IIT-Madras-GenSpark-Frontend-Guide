@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background-example {
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    font-size: 24px;
+    color: white;
+    background-color: grey;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h2 {
+    text-align: center;
+}
