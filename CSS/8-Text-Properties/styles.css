@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 24px;
+    color: #F1A01F;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 16px;
+}
+
+.highlight {
+    color: white;
+    background-color: #18243F;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
